@@ -1,0 +1,43 @@
+<html>
+<head>
+  <style>
+    .Square {
+      width: 50px;
+      height:50px;
+      text-align: center;
+      font: 18pt;
+      font-weight: bod;
+      color: blue;
+
+    }
+  </style>
+
+</head>
+<body onload="startGame()">
+
+  <h1>welcom to Tic-Tac-Toe</h1>
+  <div id= "message">messages go here</div>
+  <table border="2">
+      <tr>
+        <td id="s1" class="square" onclick="nextMove(this);"></td>
+        <td id="s2" class="square" onclick="nextMove(this);"></td>
+        <td id="s3" class="square" onclick="nextMove(this);"></td>
+      </tr>
+
+      <tr>
+        <td id="s4" class="square" onclick="nextMove(this);"></td>
+        <td id="s5" class="square" onclick="nextMove(this);"></td>
+        <td id="s6" class="square" onclick="nextMove(this);"></td>
+      </tr>
+
+      <tr>
+        <td id="s7" class="square" onclick="nextMove(this);"></td>
+        <td id="s8" class="square" onclick="nextMove(this);"></td>
+        <td id="s9" class="square" onclick="nextMove(this);"></td>
+      </tr>
+
+  </table>
+
+  <script src="main.js"></script>
+</body>
+</html>
